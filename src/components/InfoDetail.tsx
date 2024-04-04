@@ -8,7 +8,7 @@ import WindIcon from '@/icons/WindIcon'
 export default function InfoDetail() {
   const { humidityValue, maxTemp, minTemp, windSpeed } = useTemperature()
   return (
-    <article className='flex gap-x-10 h-full'>
+    <article className='flex sm:justify-normal justify-around sm:gap-x-10 sm:order-1 order-2 sm:py-8'>
       {/* Min */}
       <InfoDetailCard>
         <MinTemp />

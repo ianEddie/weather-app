@@ -12,10 +12,10 @@ export default function Form() {
   return (
     <form
       onSubmit={handleSubmit}
-      className='w-full flex justify-end items-center gap-x-2 px-10'
+      className='w-full flex sm:justify-end justify-center items-center gap-x-2 px-10'
     >
       <input
-        className='font-primary w-[12%] bg-transparent text-center py-2 border-2 border-neutral-900 rounded-full'
+        className='font-primary sm:w-[12%] w-[50%] bg-transparent text-center py-2 border-2 border-neutral-900 rounded-full'
         type='text'
         placeholder='Type a city'
         value={city}
